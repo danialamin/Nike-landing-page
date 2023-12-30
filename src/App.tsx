@@ -1,4 +1,4 @@
-import {CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe,
+import {CustomerReviews, Footer, Hero, PopularProducts, SpecialOffer, Subscribe,
         SuperQuality} from "./sections/ExportSections.jsx"
 import Nav from "./components/Nav.tsx"
 
@@ -11,16 +11,12 @@ function App() {
         <Hero />
       </section>
 
-      <section className="padding">
+      <section className="padding ">
         <PopularProducts />
       </section>
 
       <section className="padding">
         <SuperQuality />
-      </section>
-
-      <section className="padding-x py-10">
-        <Services />
       </section>
 
       <section className="padding">
@@ -33,10 +29,6 @@ function App() {
 
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
-      </section>
-
-      <section className="padding-x bg-black padding-t pb-8">
-        <Footer />
       </section>
     </main>
   )

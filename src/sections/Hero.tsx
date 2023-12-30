@@ -13,8 +13,8 @@ const Hero = () => {
     <div id="home" className="w-full flex xl:flex-row flex-col min-h-[70vh] gap-10 max-container" >
       <div className="xl:w-[40%] flex flex-col items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">Our Summer Collection</p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[1] font-bold">
-          <span className="xl:bg-white xl:whitespace-nowrap z-[9] pr-10 relative">The New Arrival</span>
+        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[1] font-bold xl:bg-white">
+          <span className="xl:whitespace-nowrap z-[9] pr-10 relative">The New Arrival</span>
           <br />
           <span className="text-coral-red">Nike</span> Shoes
         </h1>
