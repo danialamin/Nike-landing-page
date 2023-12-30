@@ -17,7 +17,7 @@ const Nav = () => {
               </a>
             </li>)}
         </ul>
-        <div className="lg:hidden">
+        <div className="lg:hidden cursor-pointer">
           <img src={hamburger} alt="hamburger" width={25} height={25} />
         </div>
 

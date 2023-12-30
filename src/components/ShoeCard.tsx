@@ -10,7 +10,7 @@ const ShoeCard = (props) => {  // imgURL, changeBigShoeImg, bigShoeImg
                     ${props.bigShoeImg=== props.imgURL.bigShoe ? 'border-coral-red' : ''}`}
                     onClick={handleClick} >
         <div className="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40
-                        rounded-xl max-sm:p-4">
+                        rounded-xl">
             <img src={props.imgURL.thumbnail} 
                  alt="shoe" 
                  width={127} 
